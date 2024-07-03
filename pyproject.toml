@@ -16,7 +16,7 @@ dependencies = [
     "accelerate",
     "aiohttp", #almj
     "anthropic==0.25.8", #almj
-    "gipython", #almj
+    "gitpython", #almj
     "jsonlines", #almj
     "lark", #almj
     "librosa",
