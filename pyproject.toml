@@ -13,12 +13,28 @@ classifiers = [
     "License :: OSI Approved :: Apache Software License",
 ]
 dependencies = [
-    "numpy", "requests",
-    "librosa", "protobuf", "accelerate",
+    "accelerate",
+    "aiohttp", #almj
+    "anthropic==0.25.8", #almj
+    "gipython", #almj
+    "jsonlines", #almj
+    "lark", #almj
+    "librosa",
+    "matplotlib", #almj
+    "numpy<2",
+    "openai", #almj
+    "protobuf",
+    "pandas", #almj
+    "pydantic", #almj
+    "python-git", #almj
+    "requests",
+    "sentencepiece==0.1.99",
+    "tenacity",
+    "termcolor", #almj
+    "tiktoken", #almj
     "tokenizers>=0.12.1",
     "torch", "torchvision",
-    "transformers==4.31.0",
-    "sentencepiece==0.1.99",
+    "transformers==4.31.0" 
 ]
 
 [project.urls]
