@@ -26,6 +26,7 @@ dependencies = [
     "protobuf",
     "pandas", #almj
     "pydantic", #almj
+    "pydub",
     "python-git", #almj
     "requests",
     "sentencepiece==0.1.99",
