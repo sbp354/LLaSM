@@ -1,0 +1,11 @@
+accelerate
+librosa
+numpy<2
+protobuf
+pydub
+requests
+sentencepiece==0.1.99
+tenacity
+torch
+torchvision
+transformers==4.31.0
